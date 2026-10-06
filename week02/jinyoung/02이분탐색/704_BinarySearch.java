@@ -15,7 +15,7 @@
  * - 입력 크기와 관계없이 일정한 개수의 변수만 사용한다.
  */
 
-public class Solution704 {
+class Solution704 {
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
